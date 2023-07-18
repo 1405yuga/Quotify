@@ -15,7 +15,10 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugAndroidTest/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_app_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/cd4ded18e560030e5d975cc21387b674/transformed/jetified-junit-1.1.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/89eec93688da8888eeab17d459ad6c9e/transformed/espresso-intents-3.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/06fba63c0deac9007bba489870f354b3/transformed/espresso-core-3.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bd67a3334222634f84b8e9a91204a549/transformed/jetified-core-ktx-1.3.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/31d07e3184b7adb370f64430a3e0b887/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar</arg>
@@ -27,6 +30,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6fe198132771a0d3292a4279d263eea0/transformed/constraintlayout-2.0.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/28cef246925b3a1fead43ccee3db5f46/transformed/appcompat-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/227741b659475bcfbae87766534ffb94/transformed/jetified-gson-2.8.6.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/fd9400c6fe9e1860c7f99cbdb245c1ed/transformed/rules-1.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bdc80cc971f1c80c4e0e8a8ebb8cbf8f/transformed/runner-1.5.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2ed7440ae0128cd2dabbbd6639e36afe/transformed/jetified-junit-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/85092182259f67d9a0d767200375f00b/transformed/jetified-hamcrest-integration-1.3.jar</arg>
@@ -160,6 +164,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.5.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.5.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-intents:3.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:rules:1.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.3.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.3.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
