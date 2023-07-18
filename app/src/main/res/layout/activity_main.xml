@@ -96,6 +96,7 @@
             android:drawableEnd="@drawable/ic_arrow"
             android:drawableTint="#80FFFFFF"
             android:text="NEXT"
+            android:id="@+id/btnNext"
             android:onClick="onNext"
             android:textAlignment="textEnd"
             android:textColor="#80FFFFFF"
